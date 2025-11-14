@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import './login.css'
 
 export default function Login() {
-    const url = 'http://localhost:5000/api/auth/login'
+    const url = 'http://localhost:5000/api/auth/login' //Change in production pineapple
     const [formData, setFormData] = useState({
         email: '',
         password: ''
