@@ -1,8 +1,9 @@
-StockMarketTracking/node_modules/
 node_modules/
 .env
 *.log
 .DS_Store
 dist/
 build/
+../StockMarketTracking/node_modules/
 
+MoMuhammad

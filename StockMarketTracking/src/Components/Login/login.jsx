@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import './login.css'
 
 export default function Login() {
+    const url = 'http://localhost:5000/api/auth/login'
     const [formData, setFormData] = useState({
         email: '',
         password: ''
@@ -31,7 +32,7 @@ export default function Login() {
         }
 
         try {
-            const response = await fetch('http://localhost:5000/api/auth/login', {
+            const response = await fetch(url, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
