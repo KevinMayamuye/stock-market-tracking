@@ -1,6 +1,16 @@
-#1. Authentication through username, password, and hashing
+
 #2. Two factor authentication, using emails 
 #3. add a timer for the two factor authentication
+
+
+# connect to api or scrape for stock info
+# database to store stock info
+
+# Front end to display stock info (later)
+
+Done
+#1. Authentication through username, password, and hashing
 #4. login + signup pages
   #1. name, surname, email, and password, email verification
 #5. database to store user credentials
+
