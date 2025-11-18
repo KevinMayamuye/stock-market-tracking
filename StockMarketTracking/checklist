@@ -2,9 +2,9 @@
 #2. Two factor authentication, using emails 
 #3. add a timer for the two factor authentication
 
-
-# connect to api or scrape for stock info
-# database to store stock info
+# database to store stock info 
+  # 2 seperate connections, historic and current, 
+  # update both daily
 
 # Front end to display stock info (later)
 
@@ -13,4 +13,6 @@ Done
 #4. login + signup pages
   #1. name, surname, email, and password, email verification
 #5. database to store user credentials
+
+# connect to api or scrape for stock info
 
