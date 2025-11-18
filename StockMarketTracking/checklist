@@ -1,10 +1,13 @@
 
 #2. Two factor authentication, using emails 
+  # nodemailer
 #3. add a timer for the two factor authentication
+  # node cron, bit check
 
 # database to store stock info 
   # 2 seperate connections, historic and current, 
   # update both daily
+  # Db for portfolio
 
 # Front end to display stock info (later)
 
