@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import './Registration.css'
 
 export default function Registration() {
+    const url = 'http://localhost:5000/api/auth/register' //Change in production pineapple
     const [formData, setFormData] = useState({
         name: '',
         username: '',
@@ -61,7 +62,7 @@ export default function Registration() {
         try {
             const { confirmPassword, ...registrationData } = formData
             
-            const response = await fetch('http://localhost:5000/api/auth/register', {
+            const response = await fetch(url, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
