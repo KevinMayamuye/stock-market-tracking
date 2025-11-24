@@ -38,10 +38,10 @@ async function TwoStep(Client_email) {
     return info;
 }
 
-(async () => {
-    const Client_email = 'mo1motala@gmail.com';
-    const l = await TwoStep(Client_email);
-    console.log(l);
-})();
+// (async () => {
+//     const Client_email = 'mo1motala@gmail.com';
+//     const l = await TwoStep(Client_email);
+//     console.log(l);
+// })();
 
 export { SendEmail, TwoStep };

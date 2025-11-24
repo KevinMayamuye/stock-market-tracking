@@ -1,6 +1,6 @@
 'use strict';
 
-import Stock from './API.js';
+import Stock from './Stock.js';
 import mongoose from 'mongoose';
 import cron from "node-cron";
 
