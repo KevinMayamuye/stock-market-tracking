@@ -19,7 +19,7 @@ const options = {
       .catch(err => console.log(err));
 
 // 1 minute: * * * * *, 5 minutes: */5 * * * *, 1 hour: 0 * * * *, everyday at 3am: 0 3 * * *
-cron.schedule("*/5 * * * *", () => {
+cron.schedule("0 0 * * *", () => {
   console.log("Running Scheduled API Fetch...");
 
   fetch(API, { headers: { 'User-Agent': 'request' } })
