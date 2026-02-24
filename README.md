@@ -2,5 +2,5 @@
 "# stock-market-tracking" 
 # Backend: npm start
 # Frontend: 
-npm install
+npm install, \n
 npm run dev
